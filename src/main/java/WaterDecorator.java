@@ -5,7 +5,7 @@ public class WaterDecorator extends Decorator{
     }
 
     @Override
-    public String add() {
-        return super.add() + " + 물";
+    public String coffeeAdd() {
+        return super.coffeeAdd() + " + 물";
     }
 }

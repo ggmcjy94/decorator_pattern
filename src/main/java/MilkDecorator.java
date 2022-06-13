@@ -4,7 +4,7 @@ public class MilkDecorator extends Decorator{
     }
 
     @Override
-    public String add() {
-        return super.add() + " + 우유";
+    public String coffeeAdd() {
+        return super.coffeeAdd() + " + 우유";
     }
 }

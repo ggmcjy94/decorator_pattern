@@ -1,4 +1,6 @@
 public interface Component {
 
-    String add();
+    String coffeeAdd();
+
+    String cakeAdd();
 }

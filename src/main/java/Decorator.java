@@ -1,13 +1,18 @@
 public class Decorator implements Component{
 
-    private Component coffeeComponent;
+    private Component component;
 
-    public Decorator(Component coffeeComponent) {
-        this.coffeeComponent = coffeeComponent;
+    public Decorator(Component component) {
+        this.component = component;
     }
 
     @Override
-    public String add() {
-        return coffeeComponent.add();
+    public String coffeeAdd() {
+        return component.coffeeAdd();
+    }
+
+    @Override
+    public String cakeAdd() {
+        return component.cakeAdd();
     }
 }
